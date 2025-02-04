@@ -40,6 +40,8 @@ We test the connection by pinging PC1 from PC0 which is successful.
 -  Create VLAN 2 (User VLAN) and VLAN 3 (Finance Dept. VLAN)
 -  Assign the correct VLANs to the respective ports
 -  Set access ports to restrict communication between VLANs
+-  Verify VLAN configurations using show VLAN command
+-  Test connectivity with Ping command
 
 ![6](https://github.com/user-attachments/assets/ac685170-bda3-4799-b2f8-23f3954b5a76)
 
@@ -55,7 +57,14 @@ Check to see if the access ports have been assigned correctly:
 
 ![9](https://github.com/user-attachments/assets/e6b0a48a-ebe8-4315-8cd2-c9eab710a8d1)
 
-3. Verifying Connectivity and VLAN Segmentation
--  Use the ping command to test connectivity between PCs
--  Verify VLAN configurations using show VLAN command
+Ping request from PC0 to PC1 should fail if access ports configured properly:
+
+![10](https://github.com/user-attachments/assets/e567f086-eec4-46b0-83e4-cdec6a5f3b22)
+
+3. Add PC02 to network
+-  Configure PC02 with static IP
+-  Assign PC03 to to VLAN3
 -  Ensure VLAN separation and functionality
+-  Use the ping command to test connectivity between PCs
+
+
