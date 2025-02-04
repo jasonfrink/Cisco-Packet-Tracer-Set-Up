@@ -11,24 +11,37 @@ Creating a simple network topology
 Configuring basic switch settings
 Assigning VLANs and verifying connectivity
 
+![1 Cisco Packet Tracer Set Up](https://github.com/user-attachments/assets/c272807f-a532-4bfe-871d-ce5ffa8c2641)
+
 Sections 
 
 1.  Building a Simple Network Topology
 -  Add a Cisco 2960 switch to the workspace
--  Add two end devices (PCs) and connect them to the switch using Ethernet cables
+-  Add three end devices (PCs) and connect them to the switch using Ethernet cables
 -  Assign static IP addresses to the PCs for network testing
 
-2.  Configuring the Switch
--  Access the CLI (Command Line Interface) of the switch
--  Navigate through different modes (User EXEC, Privileged EXEC, and Global Configuration)
--  Verify initial settings using show commands
+The network will intially be set up with two PCs and a switch, connected by a straight-through cable as shown in the image below. Satic addresses will be assigned to the PCs.
 
-3. Creating and Assigning VLANs
--  Create VLAN 2 (User VLAN) and VLAN 3 (Engineering VLAN)
+![2](https://github.com/user-attachments/assets/27f08231-32de-4346-98d3-1fac6abfc19d)
+
+Configuring the static IP address:
+
+![3](https://github.com/user-attachments/assets/79a15faa-50ae-4d6c-b716-a96dca6ce153)
+
+Current network configuration:
+
+![4](https://github.com/user-attachments/assets/79a78d50-fcc6-41ef-b8a5-3041ccb29ee4)
+
+We test the connection by pinging PC1 from PCO which is successful. 
+
+![5](https://github.com/user-attachments/assets/68998ad5-0ea9-4c95-a820-9648a0963ded)
+
+2. Creating and Assigning VLANs - Configuring the Switch
+-  Create VLAN 2 (User VLAN) and VLAN 3 (Finance Dept. VLAN)
 -  Assign the correct VLANs to the respective ports
 -  Set access ports to restrict communication between VLANs
 
-4. Verifying Connectivity and VLAN Segmentation
+3. Verifying Connectivity and VLAN Segmentation
 -  Use the ping command to test connectivity between PCs
 -  Verify VLAN configurations using show VLAN command
 -  Ensure VLAN separation and functionality
