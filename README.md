@@ -81,4 +81,4 @@ A ping request is used to confirm the connection for PC1 and PC2.
 
 ![image](https://github.com/user-attachments/assets/e9d1e5a0-ad74-426c-8442-306c4909772a)
 
-The network is configured and logically separated. Multiple PCs and VLANS can be added to this network using the steps outlined. 
+The network is configured and logically separated. Multiple PCs and VLANs can be added to this network using the steps outlined. 
