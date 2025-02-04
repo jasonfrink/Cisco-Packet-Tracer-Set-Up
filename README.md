@@ -32,7 +32,7 @@ Current network configuration:
 
 ![4](https://github.com/user-attachments/assets/79a78d50-fcc6-41ef-b8a5-3041ccb29ee4)
 
-We test the connection by pinging PC1 from PCO which is successful. 
+We test the connection by pinging PC1 from PC0 which is successful. 
 
 ![5](https://github.com/user-attachments/assets/68998ad5-0ea9-4c95-a820-9648a0963ded)
 
@@ -40,6 +40,20 @@ We test the connection by pinging PC1 from PCO which is successful.
 -  Create VLAN 2 (User VLAN) and VLAN 3 (Finance Dept. VLAN)
 -  Assign the correct VLANs to the respective ports
 -  Set access ports to restrict communication between VLANs
+
+![6](https://github.com/user-attachments/assets/ac685170-bda3-4799-b2f8-23f3954b5a76)
+
+Use the switch CLI to set up the VLANs:
+
+![6](https://github.com/user-attachments/assets/79580b81-7d4d-4b31-ab33-c1044836073c)
+
+Use the Switch CLI to set up access port and assign respective VLAN:
+
+![8](https://github.com/user-attachments/assets/8809e028-7594-4229-83ae-b77450fd0343)
+
+Check to see if the access ports have been assigned correctly:
+
+![9](https://github.com/user-attachments/assets/e6b0a48a-ebe8-4315-8cd2-c9eab710a8d1)
 
 3. Verifying Connectivity and VLAN Segmentation
 -  Use the ping command to test connectivity between PCs
