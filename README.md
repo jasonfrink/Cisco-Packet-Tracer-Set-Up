@@ -74,9 +74,11 @@ The final network will look like this:
 PC2 is added using the same process as PC0 and PC1. PC2 will be part of VLAN 3 (Finance Department). The access port and VLAN assigment will also be the same as the steps to configure PC0 and PC1.
 
 The access port for PC2 has been configured for VLAN3.
+
 ![12](https://github.com/user-attachments/assets/ea3ee9fc-6648-4d6f-99f3-8c13c73424bf)
 
-A pring request is used to confirm the connection for PC1 and PC2. 
+A ping request is used to confirm the connection for PC1 and PC2. 
 
 ![image](https://github.com/user-attachments/assets/e9d1e5a0-ad74-426c-8442-306c4909772a)
 
+The network is configured and logically separated. Multiple PCs and VLANS can be added to this network using the steps outlined. 
