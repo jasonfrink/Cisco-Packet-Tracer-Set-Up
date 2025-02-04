@@ -61,10 +61,22 @@ Ping request from PC0 to PC1 should fail if access ports configured properly:
 
 ![10](https://github.com/user-attachments/assets/e567f086-eec4-46b0-83e4-cdec6a5f3b22)
 
-3. Add PC02 to network
--  Configure PC02 with static IP
--  Assign PC03 to to VLAN3
+3. Add PC2 to network
+-  Configure PC2 with static IP
+-  Assign PC2 to to VLAN3
 -  Ensure VLAN separation and functionality
 -  Use the ping command to test connectivity between PCs
 
+The final network will look like this:
+
+![11](https://github.com/user-attachments/assets/8650676f-ee04-480c-ade3-b2d5c84d0e89)
+
+PC2 is added using the same process as PC0 and PC1. PC2 will be part of VLAN 3 (Finance Department). The access port and VLAN assigment will also be the same as the steps to configure PC0 and PC1.
+
+The access port for PC2 has been configured for VLAN3.
+![12](https://github.com/user-attachments/assets/ea3ee9fc-6648-4d6f-99f3-8c13c73424bf)
+
+A pring request is used to confirm the connection for PC1 and PC2. 
+
+![image](https://github.com/user-attachments/assets/e9d1e5a0-ad74-426c-8442-306c4909772a)
 
